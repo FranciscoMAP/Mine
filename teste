@@ -65,3 +65,5 @@
           <span th:text="${msgProductMgmtSuccess}" style="color:green"></span>
         </form>
         </div>
+
+<td><img src="https://m.media-amazon.com/images/I/71ki3TUSJyL._AC_SX535_.jpg" "width=75 height=75"></img></t>
