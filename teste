@@ -51,3 +51,17 @@
         </form>
 
       </div>
+
+
+
+
+<div>
+        <form action="#" th:action="@{/deleteProduct}" method="post" th:object="${product_mgmt}">
+          <label>pid</label><br>
+          <input type="number" th:field="*{pid}" /><br/>
+           <input type="submit" th:value="${buttonText}" name="pButton"/>
+          <br/><br/>
+          <span th:text="${msgProductMgmtError}" style="color:red"></span>
+          <span th:text="${msgProductMgmtSuccess}" style="color:green"></span>
+        </form>
+        </div>
