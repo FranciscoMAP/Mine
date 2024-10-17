@@ -124,3 +124,19 @@
 
 </body>
 </html>
+
+
+
+
+
+
+<div>
+    <form action="#" th:action="@{/updateAdminPassword}" method="post">
+      <label>Update Password</label><br/>
+      <input type="password" required="required" name="password" /><br/><br/>
+      <input type="submit" value="Update"/>
+      <br/><br/>
+      <span th:text="${msgPasswordUpdtError}" style="color:red"></span>
+      <span th:text="${msgPasswordUpdtSuccess}" style="color:green"></span>
+    </form>
+  </div>
